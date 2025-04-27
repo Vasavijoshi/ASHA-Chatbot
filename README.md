@@ -8,13 +8,28 @@ Features Offered
 •	Frequently Asked Questions (FAQs): Addresses common questions related to women's empowerment, job opportunities, mentorship programs, legal rights, and mor
 
 Tech stacks used:
-Front-end: 1. HTML5 * Semantic elements including <video>, <div>, <form>, <input>, <select>, <button> * Used for structuring both the chatbot interface and login/signup pages 
-2. CSS * Inline styling via <style> tags * Features include: * Layout design * Color schemes and gradients * Responsive design elements * Hover effects 
-3. JavaScript (Client-side) * User input handling * Real-time message processing * Form validation including: * Password strength validation * Password matching confirmation * Form submission validation * Client-side redirection 
-4. Socket.IO Client * Loaded from CDN: https://cdn.socket.io/4.5.4/socket.io.min.js * Establishes real-time communication with the backend * Connected to localhost on port 3000
- 5. Video Elements * Looping video backgrounds on the interface 
+Front-end: 
+1. HTML5:
+   * Semantic elements including <video>, <div>, <form>, <input>, <select>, <button>
+   * Used for structuring both the chatbot interface and login/signup pages 
+2. CSS:
+   * Inline styling via <style> tags
+   *  Features include: * Layout design * Color schemes and gradients * Responsive design elements * Hover effects 
+3. JavaScript (Client-side) :
+   * User input handling
+   * * Real-time message processing
+     * Form validation including:
+      * Password strength validation
+      * Password matching confirmation
+     * Form submission validation
+     * Client-side redirection 
+5. Socket.IO Client:
+   * Loaded from CDN: https://cdn.socket.io/4.5.4/socket.io.min.js
+   * Establishes real-time communication with the backend
+   * Connected to localhost on port 3000
+ 7. Video Elements * Looping video backgrounds on the interface 
 Backend Technologies 
-1. Node.js * Server-side JavaScript runtime environment * Package management via npm (evidenced by node_modules and package-lock.json) 
+1. Node.js: * Server-side JavaScript runtime environment * Package management via npm (evidenced by node_modules and package-lock.json) 
 2. Express.js * Web application framework for routing and HTTP handling * Serves static files from the Frontend directory 
 3. Socket.IO (Server) * Real-time bidirectional communication * Includes related packages: * socket.io-adapter * socket.io-parser * engine.io 
 4. Axios * Promise-based HTTP client * Used for making external API requests (specifically mentioned for Adzuna API) 
